@@ -15,9 +15,13 @@
 html {
   font-family: 'Outfit', sans-serif;
   height: 100%;
+  
+  color: #fff;
+}
+
+body {
   background: #0f1020;
   background-image: radial-gradient(ellipse at 20% 20%, rgba(77, 159, 255, 0.06) 0%, transparent 60%), radial-gradient(ellipse at 80% 80%, rgba(168, 212, 255, 0.04) 0%, transparent 60%);
-  color: #fff;
 }
 
 img {
@@ -46,6 +50,7 @@ a {
   width: 40%;
   margin: 0 auto;
   margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 600px) {
@@ -54,6 +59,7 @@ a {
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    padding-bottom: 20px;
   }
 
   .img {
