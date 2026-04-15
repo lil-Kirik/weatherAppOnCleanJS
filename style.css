@@ -48,6 +48,20 @@ a {
   margin-top: 50px;
 }
 
+@media (max-width: 600px) {
+  .container {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+  }
+
+  .img {
+    width: 50px;
+    margin: -10px -5px 0 0;
+  }
+}
+
 .wheatherSearch {
   display: flex;
   justify-content: space-between;
